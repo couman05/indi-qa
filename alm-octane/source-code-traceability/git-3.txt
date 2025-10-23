@@ -1,1 +1,2 @@
 init 
+"\ncommit: jenkins-GitCommitAndInjectTests-1" 
