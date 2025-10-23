@@ -1,3 +1,4 @@
 init 
 "\ncommit: jenkins-GitCommitAndInjectTests-1" 
 "\ncommit: jenkins-GitCommitAndInjectTests-2" 
+"\ncommit: jenkins-GitCommitAndInjectTests-3" 
