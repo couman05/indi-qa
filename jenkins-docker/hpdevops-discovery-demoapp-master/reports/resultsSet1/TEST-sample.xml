@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DummyTests" tests="2" failures="1" errors="0" skipped="0" time="0.01">
-    <testcase classname="DummyTests" name="testPass" time="0.001"/>
-    <testcase classname="DummyTests" name="testFail" time="0.002">
-        <failure message="Intentional failure for integration test">stacktrace here</failure>
+<testsuite name="IntegrationDummySuite"
+           tests="30"
+           failures="7"
+           errors="0"
+           skipped="1"
+           time="0.123">
+    <!-- 22 passed -->
+    <testcase classname="DummyTests" name="test_pass_01" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_02" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_03" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_04" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_05" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_06" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_07" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_08" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_09" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_10" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_11" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_12" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_13" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_14" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_15" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_16" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_17" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_18" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_19" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_20" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_21" time="0.001"/>
+    <testcase classname="DummyTests" name="test_pass_22" time="0.001"/>
+
+    <!-- 1 skipped -->
+    <testcase classname="DummyTests" name="test_skipped_01" time="0.001">
+        <skipped message="Skipped intentionally for integration test"/>
+    </testcase>
+
+    <!-- 7 failed -->
+    <testcase classname="DummyTests" name="test_fail_01" time="0.001">
+        <failure message="Intentional failure #1">stacktrace 1</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_02" time="0.001">
+        <failure message="Intentional failure #2">stacktrace 2</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_03" time="0.001">
+        <failure message="Intentional failure #3">stacktrace 3</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_04" time="0.001">
+        <failure message="Intentional failure #4">stacktrace 4</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_05" time="0.001">
+        <failure message="Intentional failure #5">stacktrace 5</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_06" time="0.001">
+        <failure message="Intentional failure #6">stacktrace 6</failure>
+    </testcase>
+    <testcase classname="DummyTests" name="test_fail_07" time="0.001">
+        <failure message="Intentional failure #7">stacktrace 7</failure>
     </testcase>
 </testsuite>
