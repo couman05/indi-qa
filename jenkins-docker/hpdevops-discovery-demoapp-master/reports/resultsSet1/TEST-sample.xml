@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<testsuite name="DummyTests" tests="2" failures="1" skipped="0"> 
+<testcase classname="DummyTests" name="testPass"/> 
+<testcase classname="DummyTests" name="testFail"><failure message="Intentional failure">stacktrace</failure></testcase> 
+</testsuite> 
