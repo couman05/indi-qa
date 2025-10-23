@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<testsuite name="DummyTests" tests="2" failures="1" skipped="0"> 
-<testcase classname="DummyTests" name="testPass"/> 
-<testcase classname="DummyTests" name="testFail"><failure message="Intentional failure">stacktrace</failure></testcase> 
-</testsuite> 
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DummyTests" tests="2" failures="1" errors="0" skipped="0" time="0.01">
+    <testcase classname="DummyTests" name="testPass" time="0.001"/>
+    <testcase classname="DummyTests" name="testFail" time="0.002">
+        <failure message="Intentional failure for integration test">stacktrace here</failure>
+    </testcase>
+</testsuite>
