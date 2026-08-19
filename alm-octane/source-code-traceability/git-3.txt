@@ -17,3 +17,4 @@ init
 "\ncommit: jenkins-GitCommitAndInjectTests-31" 
 "\ncommit: jenkins-GitCommitAndInjectTests-32" 
 "\ncommit: jenkins-GitCommitAndInjectTests-33" 
+"\ncommit: jenkins-GitCommitAndInjectTests-34" 
